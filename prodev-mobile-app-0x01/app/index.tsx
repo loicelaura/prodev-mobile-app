@@ -10,7 +10,6 @@ export default function Index() {
         React Native provides you a single codebase for cross platforms
       </Text>
       <Text style={styles.smallText}>ALX is awesome</Text>
-
       <Text>Entry Screen - Awesome</Text>
     </View>
   );
