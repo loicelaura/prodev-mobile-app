@@ -12,11 +12,15 @@ export default function App() {
     <View style={styles.container}>
       {/* The main title text component. */}
       <Text>Entry Screen - Awesome</Text>
-      
+
       {/* A container View for the three additional text components. */}
       <View>
-        <Text style={styles.largeText}>Typescript is great if you practice more</Text>
-        <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text>
+        <Text style={styles.largeText}>
+          Typescript is great if you practice more
+        </Text>
+        <Text style={styles.mediumText}>
+          React Native provides you a single codebase for cross platforms
+        </Text>
         <Text style={styles.smallText}>ALX is awesome</Text>
       </View>
     </View>
@@ -44,8 +48,6 @@ const styles = StyleSheet.create({
     color: '#f44336',
     marginBottom: 5,
     fontWeight: '700',
-    // Note: The fontVariant property might not work exactly as intended on all platforms.
-    fontVariant: ['small-caps'],
   },
   mediumText: {
     fontSize: 20,
