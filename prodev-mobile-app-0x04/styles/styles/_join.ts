@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     flex: 1
   },
   primaryButton: {
-    backgroundColor: '334967C',
+    backgroundColor: '#334967C',
     height:53,
     borderRadius: 10,
     justifyContent: 'center',
