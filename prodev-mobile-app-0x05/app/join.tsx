@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet, Pressable, TextInput, Image } from 'react-native';
 import { useRouter } from 'expo-router';
-import { styles as joinStyles } from '../styles/_joinstyle';
+import { styles as joinStyles } from '../styles/_join';
 import { GOOGLELOGO, FACEBOOKLOGO } from '../constants/index';
 
 export default function JoinScreen() {

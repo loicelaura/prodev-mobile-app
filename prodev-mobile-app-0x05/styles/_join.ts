@@ -53,8 +53,8 @@ const styles = StyleSheet.create({
     flex: 1
   },
   primaryButton: {
-    backgroundColor: '#334967C',
-    height:53,
+    backgroundColor: '#34967C',
+    height: 53,
     borderRadius: 10,
     justifyContent: 'center',
     alignItems: 'center',
@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     position: 'absolute',
-    left: 77,
+    left: 77, 
     right: 76,
     bottom: 33
   },
@@ -124,4 +124,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export { styles}
+export { styles }
